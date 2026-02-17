@@ -14,7 +14,6 @@ class MainPage(QWidget):
         self.setGeometry(QRect(50, 50, 600, 600))
         layout = QGridLayout(self)
         top_group_box = QGroupBox()
-        top_group_box.setStyle()
         main_group_box = QGroupBox()
         main_group_box.setAlignment(Qt.AlignCenter)
         layout.addWidget(top_group_box, 0, 0)
